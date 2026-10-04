@@ -1,0 +1,18 @@
+export const LEAGUE_IDS = {
+  CHAMPIONS_LEAGUE: 2,
+  EUROPA_LEAGUE: 3,
+  EURO_CHAMPIONSHIP: 4,
+  NATIONS_LEAGUE: 5,       
+  PREMIER_LEAGUE: 39,
+  FA_CUP: 45,
+  LIGUE_1: 61,
+  COUPE_DE_FRANCE: 66,
+  BUNDESLIGA: 78,
+  DFB_POKAL: 81,
+  SERIE_A: 135,
+  COPPA_ITALIA: 137,
+  LA_LIGA: 140,
+  COPA_DEL_REY: 143,
+} as const;
+
+export const LIVE_LEAGUE_IDS: readonly number[] = Object.values(LEAGUE_IDS);
